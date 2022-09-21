@@ -13,6 +13,8 @@
         integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!--GLIDER JS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
     <!--CSS-->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -48,9 +50,12 @@
             <div class="max-width">
                 <div class="home-content">
                     <div class="imagens">
-                        <a href="#"><img src="imagens/icons/icon_linkedin.svg" alt="linkedin"></a>
-                        <a href="#"><img src="imagens/icons/icon_github.svg" alt="github"></a>
-                        <a href="#"><img src="imagens/icons/icon_instagram.svg" alt="instagram"></a>
+                        <a href="https://www.linkedin.com/in/tailon-ramos-25271022a/"><img
+                                src="imagens/icons/icon_linkedin.svg" alt="linkedin"></a>
+                        <a href="https://github.com/RamosTailon"><img src="imagens/icons/icon_github.svg"
+                                alt="github"></a>
+                        <a href="https://www.instagram.com/ramostailon"><img src="imagens/icons/icon_instagram.svg"
+                                alt="instagram"></a>
 
                     </div>
                     <div class="text">
@@ -75,7 +80,10 @@
                     <p id="description">I have language experiencePython and Database programming MySQL and software
                         interface using QtDesigner. I worked in companies in the field of publishing and marketing using
                         Corel Draw and Blender 3D. I am a person with great interpersonal relationship and good at
-                        dealing with problem resolutions.</p>
+                        dealing with problem resolutions.
+                        <a href="curriculo_TI.pdf" id="Curriculo" download>Download CV</a>
+                    </p>
+
                 </div>
             </div>
         </section>
@@ -204,62 +212,27 @@
             </div>
         </section>
 
-        <!--TEAM SECTION-->
-        <section class="team" id="team">
+        <!--JOBS SECTION-->
+        <section class="jobs" id="jobs">
             <div class="max-width">
-                <h2 class="title">My Team</h2>
-                <h4 class="title2">who with me</h4>
-                <div class="team-content">
+                <h2 class="title">My Projects</h2>
+                <h4 class="title2">see this jobs</h4>
+                <div class="jobs-content">
 
-                    <div class="people">
-                        <div class="imgBox">
-                            <img src="imagens/fotos/team_michael_drum.png" alt="foto homem">
-                        </div>
-                        <!--Parte do cartão-->
-                        <div class="card_content">
-                            <div class="details">
-                                <h3>Michael Drum<br><span>Software Engineer</span></h3>
-                                <ul class="social_icons">
-                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="people">
-                        <div class="imgBox">
-                            <img src="imagens/fotos/team_ashley_mic.png" alt="foto mulher">
-                        </div>
-                        <!--Parte do cartão-->
-                        <div class="card_content">
-                            <div class="details">
-                                <h3>Ashley Mic<br><span>Cloud engineer</span></h3>
-                                <ul class="social_icons">
-                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="people">
-                        <div class="imgBox">
-                            <img src="imagens/fotos/team_patrick_bass.png" alt="foto homem 2">
-                        </div>
-                        <!--Parte do cartão-->
-                        <div class="card_content">
-                            <div class="details">
-                                <h3>Patrick Bass<br><span>Designer</span></h3>
-                                <ul class="social_icons">
-                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
+                    <div class="carousel">
+                        <img src="imagens/carrousel/studiofinesse.jpg" alt="site finesse" class="c-carousel__slide">
+                        <img src="imagens/carrousel/neat ranking.jpg" alt="site neat ranking" class="c-carousel__slide">
+                        <img src="imagens/carrousel/fast shape.jpg" alt="site fast shape" class="c-carousel__slide">
+                        <img src="imagens/carrousel/vereadores Vota.jpg"
+                            alt="automação python + selenium graf vereadores" class="c-carousel__slide">
+                        <img src="imagens/carrousel/cadastro selenium.jpg"
+                            alt="automação python + selenium bot cadastro" class="c-carousel__slide">
                     </div>
 
+
+                    <button id="arrow-previous"> &larr;</button>
+                    <button id="arrow-next"> &rarr;</button>
+                    <div role="tablist" class="simple-dots"></div>
                 </div>
             </div>
         </section>
@@ -379,7 +352,7 @@
     </div>
 
 
-
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
     <script src="javascript/script.js"></script>
 </body>
 

@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;300;500&display=swap');
 
 
-body, ul, li p{
+body,
+ul,
+li p {
     margin: 0px;
     padding: 0px;
     font-size: 1.2rem;
@@ -15,7 +17,7 @@ body, ul, li p{
 /*=============CABEÇALHO============*/
 
 
-.header{
+.header {
     position: fixed;
     width: 100%;
     height: 4rem;
@@ -24,31 +26,32 @@ body, ul, li p{
     z-index: 4;
     background-color: #F4F6F7;
     transition: all 0.3s ease;
-    
-    
+
+
 }
 
-.header.sticky{
+.header.sticky {
     padding: 7px 0;
     background-color: #EDE54E;
 }
 
-.logo{
+.logo {
     font-size: 30pt;
 }
 
-.topo{
+.topo {
     display: flex;
     align-items: center;
     justify-content: space-around;
 
 }
 
-.topo{
+.topo {
     max-width: 1300px;
     padding: 0 80px;
 }
-.menu{
+
+.menu {
     display: flex;
 }
 
@@ -56,13 +59,13 @@ body, ul, li p{
     padding: 5px;
 }
 
-.menu li a{
+.menu li a {
     text-decoration: none;
     display: block;
     padding: 10px;
     color: black;
     font-size: 17pt;
-    
+
 }
 
 .mobile-menu {
@@ -79,32 +82,32 @@ body, ul, li p{
 }
 
 /*==========CORPO==========*/
-.main{
+.main {
     position: relative;
     background-color: #F4F6F7;
-    top: 4rem ;
+    top: 4rem;
 }
 
 
 /*======HOME=========*/
-.home{
+.home {
     padding: 80px 0px;
     font-family: 'League Spartan', sans-serif;
     /* position: relative; */
     top: 2.5rem;
 }
 
-.max-width{
+.max-width {
     margin: auto 6.813rem auto 6.813rem;
 }
 
-.home-content{
+.home-content {
     display: grid;
     grid-template-columns: 11.4% 52.6% 31.1%;
     align-items: center;
 }
 
-.text{
+.text {
     color: black;
     position: relative;
     bottom: 25px;
@@ -112,64 +115,67 @@ body, ul, li p{
     line-height: 2em;
 }
 
-#hi{
+#hi {
     font-size: 38pt;
 }
-#desc{
+
+#desc {
     font-size: 18pt;
     font-weight: 700;
     color: #606062;
 }
 
-.text p{
+.text p {
     font-size: 18pt;
     color: #606062;
 }
 
-.imagens{
+.imagens {
     width: 50px;
     margin-right: 3rem;
     position: relative;
     top: 55px;
-    
+
 }
-.imagens img{
+
+.imagens img {
     margin-bottom: 1.25rem;
 }
 
-.foto{
+.foto {
     width: 360px;
     height: auto;
 }
 
-.foto img{
+.foto img {
     width: 100%;
     height: 100%;
 }
 
 /*======ABOUT=========*/
-.about{
+.about {
     padding: 80px 0px;
 }
-.about-content{
+
+.about-content {
     display: grid;
     grid-template-columns: 50% 50%;
 }
 
-#about_me{
+#about_me {
     padding-right: 74px;
     width: 400px;
     height: auto;
 }
 
-.title{
+.title {
     font-size: 36pt;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.title2{
+.title2 {
     font-size: 21pt;
     text-align: center;
     color: #606062;
@@ -178,9 +184,10 @@ body, ul, li p{
     margin-bottom: 30px;
 }
 
-#description{
+#description {
     position: relative;
     margin-top: 5px;
+    margin-bottom: 5px;
     font-size: 18pt;
     color: #606062;
     line-height: 2.5rem;
@@ -188,31 +195,53 @@ body, ul, li p{
     font-weight: 400;
 }
 
+#Curriculo {
+    display: flex;
+    background-color: #ddd20d;
+    color: black;
+    border: none;
+    border-radius: 15px;
+    font-size: 17pt;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 60px;
+    text-decoration: none;
+}
+
+#Curriculo:hover {
+    background-color: #E0DA6B;
+    color: #373435;
+}
+
 
 /*======SERVICE=========*/
 
-.service{
+.service {
     background-color: #373435;
-    padding: 80px 0px ;
+    padding: 80px 0px;
 }
-#inverse{
+
+#inverse {
     color: white;
     font-weight: 400;
 }
-#inverse2{
+
+#inverse2 {
     color: #EDE54E;
     font-weight: 300;
 }
 
-.service-content{
+.service-content {
     display: grid;
     justify-self: stretch;
     gap: 15px;
     grid-template-columns: 1fr 1fr 1fr;
-    
+
 }
 
-.quad{
+.quad {
     display: block;
     background-color: #4B4B4D;
     padding: 50px 40px 5px 40px;
@@ -222,46 +251,47 @@ body, ul, li p{
     transition: 0.5s;
 }
 
-.quad:hover{
+.quad:hover {
     background-color: #EDE54E;
 }
 
-.quad:hover h3{
-    color:#333031;
+.quad:hover h3 {
+    color: #333031;
 }
 
-.quad h3{
-    color:#EDE54E;
+.quad h3 {
+    color: #EDE54E;
     font-family: 'League Spartan', sans-serif;
     font-size: 25pt;
     font-weight: 500;
     margin: 25px;
 }
 
-.quad h4{
+.quad h4 {
     font-weight: 200;
     font-size: 25pt;
     margin: 20px;
 }
 
-.quad h4 a{
+.quad h4 a {
     text-decoration: none;
     color: white;
 }
 
-.icon_service{
+.icon_service {
     width: 75px;
     height: 75px;
     fill: #EDE54E;
 }
 
-.quad:hover .icon_service{
+.quad:hover .icon_service {
     fill: #333031;
 }
 
-.btn_service{
+.btn_service {
     cursor: pointer;
 }
+
 /*<---MODEL CONTAINER--->*/
 
 .model-container {
@@ -289,20 +319,21 @@ body, ul, li p{
     border-radius: 15px;
 }
 
-@keyframes modal{
-    from{
+@keyframes modal {
+    from {
         opacity: 0;
-        transform: translate3d(0,-60px,0);
+        transform: translate3d(0, -60px, 0);
     }
-    to{
+
+    to {
         opacity: 1;
-        transform: translate3d(0,0,0);
+        transform: translate3d(0, 0, 0);
     }
 }
 
 
 /*deve estar junto pois equivale a acrescentar a classe em cima de outra*/
-.model-container.mostrar  {
+.model-container.mostrar {
     visibility: visible;
     opacity: 1;
 }
@@ -325,15 +356,26 @@ body, ul, li p{
 
 /*======TEAM=========*/
 
-.team{
+.jobs {
     padding: 80px 0px;
 }
-.team-content{
-    display: flex;
-    justify-content: space-between;
+
+
+.carousel {
+    max-width: 1100px;
+    width: 100%;
 }
 
-.people{
+.carousel img {
+    height: 210px;
+}
+
+/*
+.carousel img {
+    height: 210px;
+}*/
+
+.people {
     position: relative;
     width: 280px;
     height: 370px;
@@ -343,7 +385,7 @@ body, ul, li p{
     overflow: hidden;
 }
 
-.people .imgBox{
+.people .imgBox {
     position: absolute;
     top: 0;
     left: 0;
@@ -356,11 +398,11 @@ body, ul, li p{
     overflow: hidden;
 }
 
-.people:hover .imgBox{
+.people:hover .imgBox {
     transform: translateY(30px) scale(0.5);
 }
 
-.people .imgBox img{
+.people .imgBox img {
     /* 
     SOMENTE PARA TESTAR SEM A FOTO
     display: none;
@@ -373,7 +415,7 @@ body, ul, li p{
     object-fit: cover;
 }
 
-.people .card_content{
+.people .card_content {
     position: absolute;
     left: 0;
     top: 0;
@@ -382,16 +424,16 @@ body, ul, li p{
     display: flex;
     justify-content: center;
     align-items: flex-end;
-   transform: translateY(100%);
+    transform: translateY(100%);
     transition: 0.5s;
 }
 
 
-.people:hover .card_content{
+.people:hover .card_content {
     transform: translateY(0);
 }
 
-.card_content .details{
+.card_content .details {
     padding-bottom: 30px;
     display: flex;
     justify-content: center;
@@ -400,7 +442,7 @@ body, ul, li p{
 
 }
 
-.details h3{
+.details h3 {
     color: #F4F6F7;
     font-family: 'League Spartan', sans-serif;
     font-weight: 500;
@@ -408,24 +450,25 @@ body, ul, li p{
     margin: 5px 0px;
 
 }
-.details span{
-    color:#EDE54E;
+
+.details span {
+    color: #EDE54E;
     font-family: 'League Spartan', sans-serif;
     font-weight: 300;
 }
 
-.social_icons{
+.social_icons {
     position: relative;
     display: flex;
     margin: 5px;
 }
 
-.social_icons li{
+.social_icons li {
     list-style: none;
     margin: 5px;
 }
 
-.social_icons li a{
+.social_icons li a {
     width: 45px;
     height: 45px;
     display: flex;
@@ -439,7 +482,7 @@ body, ul, li p{
     transition: 0.5s;
 }
 
-.social_icons li a:hover{
+.social_icons li a:hover {
     transform: rotate(360deg);
     background-color: #ddd20d;
     color: #333031;
@@ -447,62 +490,67 @@ body, ul, li p{
 
 
 /*======CONTACT=========*/
-.contact{
+.contact {
     background-color: #333031;
-    margin: 80px 0px ;
+    margin: 80px 0px;
     padding: 30px 0px;
 }
 
-.contact-content{
-    display: grid ;
+.contact-content {
+    display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-areas: "p f" ;
+    grid-template-areas: "p f";
 }
 
 
-.name_tag h2{
+.name_tag h2 {
     margin-top: 25px;
     margin-bottom: 5px;
 }
 
-.pessoal{
+.pessoal {
     font-size: 19pt;
     color: white;
     float: left;
     grid-area: p;
 }
-.pessoal span{
+
+.pessoal span {
     font-size: 16pt;
     color: #727376;
 }
 
-.formulario{
+.formulario {
     grid-area: f;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 3fr;
     grid-template-areas: "n e"
-                         "s s"
-                         "m m";
+        "s s"
+        "m m";
     gap: 15px;
 }
-.formulario #name_contact_form{
+
+.formulario #name_contact_form {
     grid-area: n;
 }
-.formulario #email_contact_form{
+
+.formulario #email_contact_form {
     grid-area: e;
 }
-.formulario #subject_contact_form{
+
+.formulario #subject_contact_form {
     grid-area: s;
 }
-.formulario #message_contact_form{
+
+.formulario #message_contact_form {
     grid-area: m;
 }
 
 
-.input_contato{
+.input_contato {
     border: 2px solid #EDE54E;
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0, 0, 0, 0);
     border-radius: 5px;
     height: 40px;
     font-size: 14pt;
@@ -510,24 +558,26 @@ body, ul, li p{
     color: #F4F6F7;
     padding: 0px 15px;
 }
-.input_contato::-webkit-input-placeholder{
+
+.input_contato::-webkit-input-placeholder {
     padding: 10px 0px;
     color: #EDE54E;
     font-family: 'League Spartan', sans-serif;
     font-size: 14pt;
 }
+
 #message_contact_form {
     padding: 10px 15px;
     height: 120px;
-    
+
 }
 
-#message_contact_form:-webkit-input-placeholder{
+#message_contact_form:-webkit-input-placeholder {
     color: #EDE54E;
     font-family: 'League Spartan', sans-serif;
 }
 
-#submit_contact_form{
+#submit_contact_form {
     width: 170px;
     height: 40px;
     background-color: #ddd20d;
@@ -539,7 +589,7 @@ body, ul, li p{
     outline: none;
 }
 
-#submit_contact_form:hover{
+#submit_contact_form:hover {
     background-color: #EDE54E;
     color: #373435;
 }
@@ -548,7 +598,7 @@ body, ul, li p{
 
 /*======FOOTER=========*/
 
-.rodape{
+.rodape {
     height: 30px;
     text-align: center;
     background-color: white;
@@ -558,10 +608,10 @@ body, ul, li p{
 
 /*======MEDIA QUERIES=========*/
 
-@media screen and (max-width: 1007px){
-    
+@media screen and (max-width: 1007px) {
+
     /*======HOME=medium====*/
-    .home-content{
+    .home-content {
         display: flex;
         /* grid-template-columns: 50% 50%;
         grid-template-rows: 50% 50%;
@@ -571,13 +621,14 @@ body, ul, li p{
         justify-content: center;
     }
 
-    .text{
+    .text {
         width: 358px;
         /* grid-area: texto; */
         margin-right: 40px;
-        
+
     }
-    .foto{
+
+    .foto {
         /* grid-area: foto; */
         width: 300px;
         height: auto;
@@ -587,10 +638,10 @@ body, ul, li p{
     .foto img {
         width: 100%;
         height: 100%;
-        
+
     }
 
-    .imagens{
+    .imagens {
         order: 2;
         display: flex;
         width: 100%;
@@ -599,66 +650,71 @@ body, ul, li p{
         justify-content: center;
     }
 
-    .imagens a{
+    .imagens a {
         width: 50px;
         height: 100%;
         margin-right: 10px;
     }
 
     /*======ABOUT=medium====*/
-    .about-content{
+    .about-content {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
-    #description{
+
+    #description {
         margin-top: 20px;
     }
 
     /*======SERVICE=medium====*/
 
-    .service-content{
+    .service-content {
         display: flex;
         flex-wrap: wrap;
     }
-    .quad{
+
+    .quad {
         width: 100%;
         display: grid;
         grid-template-columns: 1fr 3fr;
         grid-template-rows: 50% 50%;
         grid-template-areas: "i h"
-                            "i b";
+            "i b";
         padding: 50px 40px;
-        
+
     }
+
     .icon_service {
         width: 150px;
         height: 150px;
         padding-right: 25px;
         grid-area: i;
     }
-    .quad h3{
+
+    .quad h3 {
         grid-area: h;
     }
 
-   
-    .btn_service{
+
+    .btn_service {
         clear: left;
         grid-area: b;
     }
 
     /*======CONTACT=medium====*/
-    .contact-content{
+    .contact-content {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
-    .pessoal{
+
+    .pessoal {
         margin: 0 0 35px 0;
         text-align: center;
     }
 
-    #submit_contact_form{
+    #submit_contact_form {
         width: 206%;
         height: 55px;
         font-size: 18pt;
@@ -667,15 +723,15 @@ body, ul, li p{
 
 }
 
-    
 
-@media (max-width: 933px){
-    
-        /*DICA: USAR JUNTO DA PROPRIEDADE dentro do body TRANSFORM: translateX(100%)*/
-        /*ESCONDE TODO O CONTEÚDO QUE ULTRAPASSAR A TELA*/
-        /* overflow: hidden; */
-    
-    .menu{
+
+@media (max-width: 933px) {
+
+    /*DICA: USAR JUNTO DA PROPRIEDADE dentro do body TRANSFORM: translateX(100%)*/
+    /*ESCONDE TODO O CONTEÚDO QUE ULTRAPASSAR A TELA*/
+    /* overflow: hidden; */
+
+    .menu {
         position: fixed;
         top: 4rem;
         right: 0;
@@ -684,7 +740,7 @@ body, ul, li p{
         background-color: #EDE54E;
         flex-direction: column;
         align-items: center;
-        justify-content:flex-start;
+        justify-content: flex-start;
         /*JOGA O CONTEUDO TODO PRA FORA DA TELA*/
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
@@ -718,7 +774,7 @@ body, ul, li p{
 
     }
 
-    
+
 
 }
 
@@ -736,41 +792,46 @@ body, ul, li p{
 }
 
 
-@media (max-width: 640px){
-    
-    .foto{
+@media (max-width: 640px) {
+
+    .foto {
         display: none;
     }
 
     /*======CONTACT=medium====*/
-    .main{
+    .main {
         display: block;
         justify-content: center;
     }
-    .max-width{
+
+    .max-width {
         margin: 0 15px;
     }
-    #about_me{
+
+    #about_me {
         padding: 0;
     }
 
-    .contact-content{
+    .contact-content {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
-    .formulario{
+
+    .formulario {
         display: flex;
         flex-wrap: wrap;
         font-size: 18pt;
     }
-    .formulario input{
+
+    .formulario input {
         width: 100%;
     }
-    #submit_contact_form{
+
+    #submit_contact_form {
         width: 100%;
         height: 55px;
         font-size: 18pt;
 
     }
-}   
+}

@@ -4,11 +4,6 @@ document.addEventListener('scroll', () => {
     header.classList.toggle("sticky", window.scrollY > 0);
 })
 
-// const view2 = document.querySelector('#app_design_viewMore')
-// const view3 = document.querySelector('#design_viewMore')
-
-
-
 function inicia_modal(modal_id) {
     const modal = document.getElementById(modal_id)
     modal.classList.add('mostrar')
@@ -80,4 +75,21 @@ const mobileNavbar = new MobileNavbar(
 );
 
 mobileNavbar.init();
+
+//GLIDER JS
+const simpleCarousel = document.querySelector('.carousel')
+
+new Glider(simpleCarousel, {
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    draggable: true,
+    dots: '.simple-dots',
+    arrows: {
+        prev: '#arrow-previous',
+        next: '#arrow-next'
+    }
+})
+
+
+
 
