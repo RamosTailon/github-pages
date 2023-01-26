@@ -4,6 +4,7 @@ document.addEventListener('scroll', () => {
     header.classList.toggle("sticky", window.scrollY > 0);
 })
 
+//função MODAL
 function inicia_modal(modal_id) {
     const modal = document.getElementById(modal_id)
     modal.classList.add('mostrar')
@@ -13,7 +14,7 @@ function inicia_modal(modal_id) {
             modal.classList.remove('mostrar')
         }
     })
-}
+}   
 
 const view1 = document.getElementById('3d_viewMore')
 const view2 = document.querySelector('#app_design_viewMore')
