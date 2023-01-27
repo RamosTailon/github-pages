@@ -192,6 +192,7 @@ li p {
 }
 
 #Curriculo {
+    margin-left: 23em;
     display: flex;
     background-color: #ddd20d;
     color: black;
@@ -204,6 +205,7 @@ li p {
     width: 260px;
     height: 60px;
     text-decoration: none;
+    transition: .4s;
 }
 
 #Curriculo:hover {
@@ -288,7 +290,7 @@ li p {
     cursor: pointer;
 }
 
-/*<---MODEL CONTAINER--->*/
+/*=========MODEL CONTAINER=======*/
 
 .model-container {
     position: fixed;
@@ -356,10 +358,27 @@ li p {
     padding: 80px 0px;
 }
 
+.jobs-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 
 .carousel {
     max-width: 1100px;
     width: 100%;
+}
+
+.carousel a {
+    margin-right: 5px;
+}
+
+#arrow-previous,
+#arrow-next {
+    color: #030303;
+    border: none;
+    border-radius: 8px;
+    font-size: 2em;
 }
 
 .carousel img {
@@ -669,6 +688,10 @@ li p {
         width: 100%;
     }
 
+    #Curriculo {
+        margin: 0;
+    }
+
     #description {
         margin-top: 20px;
     }
@@ -840,6 +863,19 @@ li p {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+    .carousel img {
+        height: 100px;
+    }
+
+    #arrow-previous,
+    #arrow-next {
+        font-size: 1em;
+    }
+
+    .contact {
+        margin: 0;
     }
 
     .formulario {

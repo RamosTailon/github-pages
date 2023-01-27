@@ -80,14 +80,16 @@ mobileNavbar.init();
 const simpleCarousel = document.querySelector('.carousel')
 
 new Glider(simpleCarousel, {
-    slidesToShow: 3,
+    slidesToShow: 2,
     slidesToScroll: 1,
     draggable: true,
     dots: '.simple-dots',
     arrows: {
         prev: '#arrow-previous',
         next: '#arrow-next'
-    }
+    },
+    scrollLock: true,
+    scrollLockDelay: 200
 })
 
 
