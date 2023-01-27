@@ -1,9 +1,9 @@
 # Índice
--[Proposta] (#id01)
-- [Screenshots] (#id02)
-- [Links] (#id03)
-- [Feito_com] (#id04)
-- [Autor] (#id05)
+- [Proposta](#id01)
+- [Screenshots](#id02)
+- [Links](#id03)
+- [Feito_com](#id04)
+- [Autor](#id05)
 
 # 🚀 Proposta <a name="id01"></a>
 
@@ -22,13 +22,13 @@ Data do início: 25/04/2022
 ## :iphone: Mobile design
 
 <p  align="center">
-  <img width="300px" src="./img/screenshots/tela02.jpg" align="center"></img>
+  <img height="300px" src="./img/screenshots/tela02.jpg" align="center"></img>
 </p>
 
 ## :desktop_computer: Desktop design
 
 <p  align="center">
-  <img width="300px" src="./img/screenshots/tela01.jpg" align="center"></img>
+  <img width="600px" src="./img/screenshots/tela01.jpg" align="center"></img>
 </p>
 
 # :heavy_check_mark: Links <a name="id03"></a>
@@ -39,10 +39,9 @@ Portfólio: https://ramostailon.github.io/github-pages/
 
 <br/>
 
-- HTML
-- CSS
-- JAVASCRIPT
-- VS CODE
+- [HTML](./img/assets/HTML.jpg)
+- [CSS](./img/assets/CSS.jpg)
+- [JAVASCRIPT](./img/assets/javascript.jpg)
 
 # :sunglasses: Autor <a name="id05"></a>
 
