@@ -43,10 +43,6 @@ li p {
     display: flex;
     align-items: center;
     justify-content: space-around;
-
-}
-
-.topo {
     max-width: 1300px;
     padding: 0 80px;
 }
@@ -545,6 +541,7 @@ li p {
 
 .formulario #message_contact_form {
     grid-area: m;
+    width: 94.5%;
 }
 
 
@@ -569,7 +566,6 @@ li p {
 #message_contact_form {
     padding: 10px 15px;
     height: 120px;
-
 }
 
 #message_contact_form:-webkit-input-placeholder {
@@ -599,7 +595,10 @@ li p {
 /*======FOOTER=========*/
 
 .rodape {
-    height: 30px;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     background-color: white;
     color: #606062;
@@ -624,9 +623,11 @@ li p {
     .text {
         width: 358px;
         /* grid-area: texto; */
-        margin-right: 40px;
-
+        /* margin-right: 40px; */
+        text-align: center;
     }
+
+
 
     .foto {
         /* grid-area: foto; */
@@ -661,6 +662,11 @@ li p {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+
+    }
+
+    .about-content #about_me {
+        width: 100%;
     }
 
     #description {
@@ -685,15 +691,17 @@ li p {
 
     }
 
+
     .icon_service {
-        width: 150px;
-        height: 150px;
+        width: 120px;
+        height: 120px;
         padding-right: 25px;
         grid-area: i;
     }
 
     .quad h3 {
         grid-area: h;
+        margin: 0;
     }
 
 
@@ -731,6 +739,16 @@ li p {
     /*ESCONDE TODO O CONTEÚDO QUE ULTRAPASSAR A TELA*/
     /* overflow: hidden; */
 
+    .header {
+        padding: 20px 0;
+    }
+
+    .header .topo {
+        font-size: 15pt;
+        display: flex;
+        justify-content: space-between;
+    }
+
     .menu {
         position: fixed;
         top: 4rem;
@@ -755,7 +773,7 @@ li p {
 
     .mobile-menu {
         display: block;
-        margin-left: 10em;
+
 
     }
 
@@ -791,6 +809,10 @@ li p {
 .mobile-menu.active_mobile .line3 {
     transform: rotate(45deg) translate(-5px, -7px);
 
+}
+
+#message_contact_form {
+    width: 100%;
 }
 
 
