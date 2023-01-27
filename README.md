@@ -39,9 +39,9 @@ Portfólio: https://ramostailon.github.io/github-pages/
 
 <br/>
 
-- [HTML](./img/assets/HTML.jpg)
-- [CSS](./img/assets/CSS.jpg)
-- [JAVASCRIPT](./img/assets/javascript.jpg)
+- ![HTML](./img/assets/HTML.jpg)
+- ![CSS](./img/assets/CSS.jpg)
+- ![JAVASCRIPT](./img/assets/javascript.jpg)
 
 # :sunglasses: Autor <a name="id05"></a>
 
