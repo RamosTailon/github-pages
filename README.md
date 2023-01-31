@@ -22,7 +22,7 @@ Data do início: 25/04/2022
 ## :iphone: Mobile design
 
 <p  align="center">
-  <img height="300px" src="./img/screenshots/tela02.jpg" align="center"></img>
+  <img height="350px" src="./img/screenshots/tela02.jpg" align="center"></img>
 </p>
 
 ## :desktop_computer: Desktop design
